@@ -1,14 +1,17 @@
-body{
+/* Extra small devices (phones, 600px and down) */
+
+body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 
 }
-h1{
+
+h1 {
     font-size: 5.31rem;
     color: black;
     margin-top: 50px auto 0 auto;
-    width: 9S%;
+    width: 95%;
     margin: 0 auto 0 auto;
     font-family: 'Koulen', cursive;
 }
@@ -21,113 +24,93 @@ h2 {
 }
 
 
-h3{
+h3 {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
     color: green;
 }
+
 top-container {
     background-color: #E4F9F5;
-    position: relative; 
+    position: relative;
     padding-top: 100px;
-    }
-    .middle-container {
-    
-    }
-    .bottom-container {
-    
-    }
+}
+
+.buttom-bull {
+    position: absolute;
+}
+
 
 div {
     background-color: #FFD93D;
 }
 
-.buttom-bull
-{
-    position: absolute;
-}
-
-.skill-row{
+.skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
 
-.computer{
+.computer {
     width: 25%;
     float: right;
     margin-right: 30px;
 }
 
-.stock{
+.stock {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
 
-.film{
+.film {
     width: 25%;
     float: right;
     margin-right: 30px;
 }
 
-.psy{
+.psy {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
 
-.rup{
+.rup {
     width: 9%;
     float: left;
     margin-right: 30px;
 }
 
-.my{
+.my {
     width: 9%;
     float: right;
     margin-right: 30px;
 }
 
-.l{
-border-style: none;
-border-top-style: dotted;
-border-color: grey;
-border-width: 5px; width: 10%;
+.l {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
 }
 
-/* Extra small devices (phones, 600px and down) */
+.Chart {
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
+    
     .Chart {
-        max-width: 40%; 
+        max-width: 40px;
+        max-height: 40px;
     }
+
+    .title {
+        font-size: 40px;
+    }
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .Chart {
-        max-width: 50%; 
-    }
-}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .Chart {
-        max-width: 60%; 
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .Chart {
-        max-width: 80%; 
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .Chart {
-        max-width: 100%; 
-    }
-}
