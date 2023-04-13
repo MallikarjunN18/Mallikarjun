@@ -103,8 +103,8 @@ div {
 @media only screen and (max-width: 600px) {
     
     .Chart {
-        max-width: 40px;
-        max-height: 40px;
+        max-width: 252px;
+        max-height: 252px;
     }
 
     .title {
