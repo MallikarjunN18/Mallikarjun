@@ -32,12 +32,12 @@ h3 {
 
 top-container {
     background-color: #E4F9F5;
-    position: relative;
+    position: center;
     padding-top: 100px;
 }
 
 .buttom-bull {
-    position: absolute;
+    position: center;
 }
 
 
